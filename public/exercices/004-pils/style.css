@@ -1,0 +1,29 @@
+.container-ppal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #998235;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    width: 65%;
+    margin: 0 auto;
+}
+.column1{
+    background-color: #0B2429;
+    border: 50px solid #0B2429;
+    padding: 20px;
+    height: 420px;
+    border-radius: 50% 0 0 50%;
+}
+.column2{
+    background-color: #998235;
+    border: 50px solid #0B2429;
+    padding: 20px;
+    height: 420px;
+    border-radius: 0 50% 50% 0;
+}
