@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #F7EC7D;
+  background-color: #916826;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@ body {
   width: 50vw;
   height: 100vh;
   position: relative;
-  background-color: #62306D;
+  background-color: #916826;
 }
 .relative {
   position: absolute;
@@ -24,12 +24,12 @@ body {
   width: 800px;
   border-radius: 50%;
   height: 800px;
-  border-bottom: #F7EC7D 400px solid;
-  border-right: #F7EC7D 400px solid;
-  border-left: #62306D 400px solid;
-  border-top: #62306D 400px solid;
+  border-bottom: #FFEBCB 400px solid;
+  border-right: #FFEBCB 400px solid;
+  border-left: #F8B140 400px solid;
+  border-top: #F8B140 400px solid;
   rotate: -45deg;
-  background-color: #F7EC7D;
+
 }
 .grid{
   display: grid;
